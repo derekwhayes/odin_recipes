@@ -17,28 +17,71 @@ body {
 
 main {
     margin: 0 auto;
-    width: 50%;
-    height: 100vh;
+    padding: 0 5%;
+    width: 45%;
     background-color: rgba(246, 231, 214, 0.457);
+}
+
+main.home-main {
+    height: 100vh;
+}
+
+.home-button {
+    position: absolute;
+    height: 7vh;
+    width: 7vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    font-size: 2vw;
+    font-family: poppins-black;
+    box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw black;
 }
 
 h1 {
     text-align: center;
-    padding: 10% 0;
+    padding: 10% 1%;
     margin: 0;
-    font-size: 6.5vw;
     font-family: poppins-black;
 }
 
-.ul-container {
+h1.homepage-title {
+    font-size: 6.5vw;
+}
+
+h1.recipe-title {
+    font-size: 4vw;
+}
+
+img {
+    height: auto;
+    width:100%;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+.list-container {
     text-align: center;
 }
 
-ul {
+ul, ol {
     display: inline-block;
     padding: 0 5%;
+}
+
+.recipe-list {
     font-size: 3vw;
     list-style: none;
+}
+
+li {
+    padding: 1% 0;
 }
 
 a {
