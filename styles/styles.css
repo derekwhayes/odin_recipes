@@ -34,9 +34,6 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.355);
     text-align: center;
     padding: 1rem;
@@ -48,15 +45,53 @@ h1 {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     margin-top: 0;
     flex: 1;
 }
 
-ul {
-    padding: 4rem;
-    list-style: none;
-    text-align: center;
+h2 {
+    padding-top: 1.1rem;
     font-size: var(--fs-xxl);
+    text-align: center;
+}
+
+main img {
+    height: auto;
+    width: 100vw;
+    max-width: 700px;
+    align-self: center;
+    padding: 1rem;
+}
+
+h3 {
+    margin-left: 2rem;
+}
+
+p {
+    margin: 0 3rem;
+}
+
+h4 {
+    margin: 1rem 3rem;
+}
+
+.ul-index {
+    padding: 4rem;
+    font-size: var(--fs-xxl);
+    text-align: center;
+    list-style: none;
+}
+
+.ul-recipe {
+    margin: 0 3rem;
+    padding-bottom: 1rem;
+}
+
+ol {
+    margin: 0 3rem;
+    padding-bottom: 4rem;
 }
 
 li {
@@ -64,6 +99,9 @@ li {
 }
 
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: black;
 }
