@@ -42,6 +42,7 @@ header {
 h1 {
     margin: 0;
     font-size: var(--fs-xxxl);
+    color: #F15025;
 }
 
 main {
