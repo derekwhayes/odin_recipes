@@ -1,4 +1,4 @@
 # Odin Recipes
-#### An ugly basic HTML page. Getting some practice in following The Odin Project.
+#### A basic website. Getting some practice in following The Odin Project. Just HTML/CSS.
 
-* All recipes and images were stolen from allrecipes.com
+* All recipes and recipe images were stolen from allrecipes.com
